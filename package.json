@@ -1,0 +1,17 @@
+{
+  "name": "site-with-tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/tailwind.css -o build/importable.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.0.2",
+    "postcss": "^8.1.7",
+    "postcss-cli": "^8.3.0",
+    "tailwindcss": "^1.9.6"
+  }
+}
